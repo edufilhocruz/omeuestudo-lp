@@ -176,11 +176,7 @@ export default function Features() {
             </div>
           </div>
 
-          <div className="text-center mt-12">
-            <button className="btn btn-cta text-lg px-12">
-              🚀 QUERO CONHECER ESTE SISTEMA AGORA
-            </button>
-          </div>
+
           
           <div className="text-center mt-8">
             <ChevronDown className="w-8 h-8 text-primary animate-bounce mx-auto" />
