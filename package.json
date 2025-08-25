@@ -18,7 +18,6 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
     "clean": "rm -rf dist node_modules/.vite",
     "prebuild": "npm run clean",
-    "postbuild": "npm run analyze:size",
     "analyze:size": "npx vite-bundle-analyzer dist",
     "performance:audit": "lighthouse http://localhost:3000 --output=json --output-path=./lighthouse-report.json",
     "performance:serve": "serve dist -s -l 3000"
