@@ -386,25 +386,28 @@ export default function Features() {
               <div className="bg-green-100 rounded-lg p-3 mb-3">
                 <p className="font-semibold text-green-700">3 aprovações em 8 meses</p>
               </div>
-              <p className="font-semibold text-primary">Hoje: Acumula 2 cargos</p>
-              <p className="text-lg font-bold text-cta">R$ 47.000/mês</p>
+              <p className="font-semibold text-primary">Hoje: Policial Civil</p>
+              <p className="text-lg font-bold text-cta">R$ 7.000/mês</p>
             </div>
           </div>
           
           <div className="text-center mt-12">
-            <div className="bg-gradient-to-r from-primary-dark to-primary rounded-2xl p-8 text-white max-w-4xl mx-auto">
+            <div className="bg-blue-50 border-l-4 border-primary rounded-r-xl p-8 max-w-4xl mx-auto">
+              <h3 className="font-semibold text-xl mb-6 text-primary">
+                Resultados Comprovados
+              </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">3.847</div>
-                  <div className="text-sm opacity-90">Aprovações em 24 meses</div>
+                  <div className="text-3xl font-bold mb-2 text-primary">3.847</div>
+                  <div className="text-sm text-neutral-600">Aprovações em 24 meses</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">94%</div>
-                  <div className="text-sm opacity-90">Taxa de sucesso</div>
+                  <div className="text-3xl font-bold mb-2 text-primary">94%</div>
+                  <div className="text-sm text-neutral-600">Taxa de sucesso</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold mb-2">7</div>
-                  <div className="text-sm opacity-90">Meses em média</div>
+                  <div className="text-3xl font-bold mb-2 text-primary">7</div>
+                  <div className="text-sm text-neutral-600">Meses em média</div>
                 </div>
               </div>
             </div>
@@ -583,9 +586,14 @@ export default function Features() {
               <p className="text-2xl font-bold mb-4">
                 Por apenas R$ 97/mês.
               </p>
-                             <p className="text-lg">
-                 Com cancelamento gratuito a qualquer momento.
-               </p>
+              <p className="text-lg mb-6">
+                Com cancelamento gratuito a qualquer momento.
+              </p>
+              <div className="flex justify-center">
+                <button className="btn bg-white text-primary font-bold text-lg px-12 py-4 hover:bg-neutral-100">
+                  COMEÇAR AGORA - R$ 97/mês
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -609,7 +617,9 @@ export default function Features() {
                 "Passei em 6 meses no que outros levam anos. O algoritmo é incrível!"
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-primary rounded-full"></div>
+                <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold text-sm">
+                  CM
+                </div>
                 <div>
                   <p className="font-semibold">Carla Mendes</p>
                   <p className="text-sm text-neutral-600">Aprovada Auditora Federal</p>
@@ -629,7 +639,9 @@ export default function Features() {
                 "Depois de 8 reprovações, finalmente passei! O sistema é revolucionário."
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-cta rounded-full"></div>
+                <div className="w-10 h-10 bg-cta rounded-full flex items-center justify-center text-white font-bold text-sm">
+                  JC
+                </div>
                 <div>
                   <p className="font-semibold">Dr. João Carlos</p>
                   <p className="text-sm text-neutral-600">Aprovado Juiz Federal</p>
@@ -649,7 +661,9 @@ export default function Features() {
                 "Com apenas 2h por dia, passei em 4 meses. Inacreditável!"
               </p>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-primary rounded-full"></div>
+                <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold text-sm">
+                  AP
+                </div>
                 <div>
                   <p className="font-semibold">Ana Paula</p>
                   <p className="text-sm text-neutral-600">Aprovada Técnica INSS</p>
@@ -668,9 +682,11 @@ export default function Features() {
             <p className="text-xl mb-8">
               Junte-se aos 3.847 concurseiros que já descobriram o segredo
             </p>
-                         <button className="btn bg-white text-primary font-bold text-xl px-16 py-6 hover:bg-neutral-100">
-              COMEÇAR AGORA - R$ 97/mês
-            </button>
+                         <div className="flex justify-center">
+                           <button className="btn bg-white text-primary font-bold text-xl px-16 py-6 hover:bg-neutral-100">
+                             COMEÇAR AGORA - R$ 97/mês
+                           </button>
+                         </div>
                          <p className="text-sm mt-4 opacity-90">
                Cancelamento gratuito
              </p>
