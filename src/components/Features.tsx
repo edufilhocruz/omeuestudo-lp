@@ -673,6 +673,77 @@ export default function Features() {
           </div>
         </div>
 
+        {/* Seção 10: Urgência e Escolha */}
+        <div className="mb-24">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-8">
+              A pergunta não é <span className="text-primary">SE</span> você quer o Meu Estudo™.
+            </h2>
+            <h3 className="text-3xl font-bold text-cta mb-8">
+              A pergunta é: <span className="text-red-500">QUANDO?</span>
+            </h3>
+            <p className="text-xl text-neutral-700 mb-6">
+              Daqui 7 meses você pode estar assinando seu termo de posse graças ao Meu Estudo™.
+            </p>
+            <p className="text-xl text-neutral-700 mb-8">
+              Ou pode estar lendo outra carta como essa, se arrependendo de não ter começado.
+            </p>
+            <p className="text-2xl font-bold text-primary mb-12">
+              A escolha é sua.
+            </p>
+            
+            <div className="flex justify-center">
+              <button className="btn btn-cta font-bold text-xl px-12 py-6 rounded-xl">
+                QUERO COMECAR AGORA
+              </button>
+            </div>
+          </div>
+
+
+
+          {/* Para Quem Ainda Tem Dúvidas */}
+          <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-12">
+            <div className="text-center max-w-4xl mx-auto">
+              <h3 className="text-3xl font-bold text-red-700 mb-8">
+                Para Quem Ainda Tem Dúvidas Sobre o Meu Estudo
+              </h3>
+              <p className="text-xl text-neutral-700 mb-6">
+                Se você chegou até aqui e ainda não garantiu o Meu Estudo™, deixa eu ser direto:
+              </p>
+              <p className="text-2xl font-bold text-red-700 mb-8">
+                Você é EXATAMENTE o tipo de pessoa que mais precisa do Meu Estudo™.
+              </p>
+              <p className="text-xl text-neutral-700 mb-6">
+                Analítico demais. Desconfiado demais. Pensando demais.
+              </p>
+              <p className="text-xl text-neutral-700 mb-8">
+                São essas características que te mantêm reprovando.
+              </p>
+              <p className="text-2xl font-bold text-primary mb-6">
+                O Meu Estudo™ funcionou para 3.847 concurseiros comuns
+              </p>
+              <p className="text-xl text-neutral-700 mb-6">
+                A garantia protege você de qualquer risco.
+              </p>
+              <p className="text-xl text-neutral-700 mb-8">
+                O que você tem a perder testando o Meu Estudo™?
+              </p>
+              <p className="text-xl text-neutral-700 mb-6">
+                Mais um mês? Mais um ano? Mais uma década?
+              </p>
+              <p className="text-xl text-neutral-700 mb-12">
+                Ou R$ 97 que serão devolvidos em dobro se o Meu Estudo™ não funcionar?
+              </p>
+              
+              <div className="flex justify-center">
+                <button className="btn btn-cta font-bold text-xl px-12 py-6 rounded-xl">
+                  QUERO COMECAR AGORA
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* CTA Final */}
         <div className="text-center">
           <div className="bg-blue-600 rounded-2xl p-12 text-white max-w-4xl mx-auto">
