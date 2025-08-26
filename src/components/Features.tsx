@@ -413,10 +413,10 @@ export default function Features() {
 
                 {/* Seção 7: Escolha */}
         <div className="mb-24">
-          <h2 className="text-center mb-12">
+          <h2 className="text-center mb-8">
             Essa é a Decisão Mais Importante da Sua Vida
           </h2>
-          <p className="text-center text-lg mb-12">
+          <p className="text-center text-lg mb-8">
             Você tem duas escolhas. Dois futuros.
           </p>
           
